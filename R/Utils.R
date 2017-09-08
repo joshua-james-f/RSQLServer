@@ -352,3 +352,9 @@ RowCounter <- setRefClass(
     }
   )
 )
+
+# SQL server                               
+src_sqlserver <- function(server, database, properties){
+	ttt <- RSQLServer::SQLServer()
+	dbConnect(ttt, server=server, database=database, properties=properties)
+}
