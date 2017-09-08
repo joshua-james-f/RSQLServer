@@ -14,6 +14,8 @@ S3method(db_write_table,SQLServerConnection)
 S3method(sql_select,SQLServerConnection)
 S3method(sql_translate_env,SQLServerConnection)
 export(SQLServer)
+export(src_sqlserver)
+
 export(dbSendUpdate)
 export(have_test_server)
 exportClasses(SQLServerConnection)
